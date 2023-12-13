@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<!--A margim não é somada, e sim é considerada a maior
+da pra dar todas as propriedades do border na tag border
+box-sizing:border-box faz com que a aultura e a largura conte border e padding-->
+    <style>
+        .section-one, .section-two{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        .section-one {
+            background: deeppink;
+            background-image: url(https://img.freepik.com/fotos-premium/o-ceu-da-paisagem-do-arco-iris-refletiu-a-imagem-de-fundo-da-natureza-da-agua-ai-gerou-a-arte_856480-1354.jpg?w=740);
+            background-size: cover;
+            color: #fff;
+            background-position: center center;
+            width: 200px;
+            height: 200px;
+            border-style: solid;
+            border-width: 5px;
+            border-color: green;
+            padding: 15px;
+            margin: 25px auto;
+        } 
+
+        .section-two {
+            background: cyan;
+            width: 200px;
+            height: 200px;
+            border: 5px solid black;
+            padding: 15px;
+            margin: 25px auto;
+        }
+    </style>
+</head>
+<!-- padding: 0 0 0 0 
+sentido hórario, de cima para a esquerda
+se colocar apenas dois o primeiro será topo e baixo e o segundo
+direita e esquerda-->
+<body>
+    <section class="section-one">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil minus natus itaque
+        ducimus veniam, facilis commodi, exercitationem ipsam laboriosam ipsum quidem eos quae illum reiciendis omnis
+        tenetur, delectus aspernatur dolores?</section>
+    <section class="section-two">2</section>
+</body>
+
+</html>
