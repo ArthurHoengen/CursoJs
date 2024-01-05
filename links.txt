@@ -3,3 +3,6 @@ https://github.com/luizomf/curso-js
 
 Discord do curso:
 https://discord.gg/67PyPrXhwz
+
+w3schools
+ecmascript
