@@ -27,6 +27,15 @@ body {
     border-radius: 10px;
 }
 
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    text-align: left;
+}
+
 form input, form label, form button {
     display: block;
     width: 100%;
@@ -56,4 +65,8 @@ form button {
 
 form button:hover {
     background: var(--primary-color-darker);
+}
+
+#resultado {
+    padding: 0 5px;
 }
