@@ -44,18 +44,18 @@
         </tbody>
       </table>
       <h1>Calcule seu IMC</h1>
-      <form id="form">
+      <form action= "/" id="form" method="POST">
         <label for="peso">Peso:</label>
-        <input type="text" id="peso"/>
+        <input type="text" id="peso" name="peso"/>
 
         <label for="altura">Altura:</label>
-        <input type="text" id="altura"/>
+        <input type="text" id="altura" name="altura"/>
 
-        <button>Calcular</button>
+        <button type="submit">Calcular</button>
       </form>
       <div id="resultado"></div>
     </section>
 
-    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/main_corrigido.js"></script>
   </body>
 </html>

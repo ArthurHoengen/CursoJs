@@ -1,3 +1,5 @@
+// Esse código havia funcionado, porém haviam funções com mais de 1 responsabilidade
+
 function meuEscopo(){
     const form = document.querySelector('#form');
     const resultado = document.querySelector('#resultado');
