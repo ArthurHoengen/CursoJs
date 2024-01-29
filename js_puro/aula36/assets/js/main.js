@@ -1,3 +1,6 @@
+// COMPLIQUEI D+, era bem mais simples
+// Cuidado com o Overthinking Arthur
+
 function meuEscopo() {
   const elementos = [
     { tag: "p", texto: "Frase 1" },
@@ -23,7 +26,7 @@ function meuEscopo() {
 
   function criaElemento(tag, texto = "") {
     const elemento = document.createElement(tag);
-    elemento.innerHTML = texto;
+    elemento.innerHTML = texto; // e innerText seria melhor
     return elemento;
   }
 }
