@@ -6,3 +6,6 @@ https://discord.gg/67PyPrXhwz
 
 w3schools
 ecmascript
+
+aula 37:
+https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model/Introduction
