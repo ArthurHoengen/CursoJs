@@ -56,12 +56,12 @@ function setResultado(msg, isValid) {
   const resultado = document.querySelector("#resultado");
   resultado.innerHTML = "";
 
-  const p = criaP(msg);
+  const p = criaP();
 
   if (isValid) {
-    p.classList.add('paragrafo-resultado');
+    p.classList.add("paragrafo-resultado");
   } else {
-    p.classList.add('invalid')
+    p.classList.add("invalid");
   }
   p.innerHTML = msg;
   resultado.appendChild(p);
