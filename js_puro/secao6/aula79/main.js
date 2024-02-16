@@ -49,3 +49,7 @@ const validador = (cpf) => {
 };
 
 console.log(validador(cpf));
+
+// Faltou validar se o número tinha 11 números,
+// se o cpf era uma sequencia
+// ou se o cpf estava vazio
